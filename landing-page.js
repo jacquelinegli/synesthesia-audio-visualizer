@@ -11,5 +11,12 @@ $(document).ready(function () {
         // $("#landing-title-container-arrow").fadeIn();
     }, 3000);
 
-    //  now i need to make the arrow blink
+    setTimeout(() => {
+        //  now i need to make the arrow blink
+        function blink_text() {
+            $('.blink').fadeOut(500);
+            $('.blink').fadeIn(500);
+        }
+        setInterval(blink_text, 1000);
+    }, 4000);
 });
