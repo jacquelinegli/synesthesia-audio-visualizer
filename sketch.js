@@ -5,7 +5,6 @@ let started = false;
 let mic;
 let button;
 let freq = 0;
-let buttonText = "click me";
 let audioContext;
 let notes = [
   {
@@ -299,6 +298,10 @@ function gotPitch(error, frequency) {
 function listening() {
   console.log("listening");
   pitch = ml5.pitchDetection(model_url, audioContext, mic.stream, modelLoaded);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
