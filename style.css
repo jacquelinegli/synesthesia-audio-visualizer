@@ -1,4 +1,39 @@
-nav {
+@font-face {
+  font-family: PPMonumentExtendedBlack;
+  src: url(typefaces/PPMonumentExtended-Black.otf);
+}
+
+#landing-title {
+  font-family: PPMonumentExtendedBlack;
+}
+
+#landing-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+#landing-title-container-text {
+  margin-right: 20%;
+}
+
+#landing-title-container-arrow {
+  margin-left: 20%;
+}
+
+.blink {
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+*/ nav {
   background-color: #333;
   color: #fff;
   display: flex;
@@ -21,11 +56,15 @@ nav ul li a {
 }
 
 main {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
 }
 
 body {
-  background-color: lightblue;
+  background-color: black;
+}
+
+h1 {
+  color: white;
 }
