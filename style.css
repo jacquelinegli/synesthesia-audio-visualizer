@@ -16,13 +16,16 @@
 
 
 #landing-title-container-text {
+  opacity: 0;
   margin-right: 20%;
 }
 
 #landing-title-container-arrow {
+  opacity: 0;
   margin-left: 20%;
 }
 
+/*
 .blink {
   animation: blinker 1.5s linear infinite;
 }
@@ -31,7 +34,7 @@
   50% {
     opacity: 0;
   }
-}
+} */
 
 */ nav {
   background-color: #333;
