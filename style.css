@@ -7,7 +7,17 @@
   font-family: PPMonumentExtendedBlack;
 }
 
-#landing-title-container {
+@font-face {
+  font-family: PPPangramSansSemibold;
+  src: url(typefaces/PPPangramSans-Semibold.otf);
+}
+
+.nav-bar {
+  font-family: PPPangramSansSemibold;
+}
+
+
+.centered-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,17 +34,6 @@
   opacity: 0;
   margin-left: 20%;
 }
-
-/*
-.blink {
-  animation: blinker 1.5s linear infinite;
-}
-
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-} */
 
 */ nav {
   background-color: #333;
@@ -70,4 +69,18 @@ body {
 
 h1 {
   color: white;
+}
+
+#home-container {
+  position: relative;
+}
+
+#visualizer-canvas,
+#nav-bar {
+  position: absolute;
+}
+
+.centered-text {
+  color: white;
+  font-family: PPMonumentExtendedBlack;
 }
