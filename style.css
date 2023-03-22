@@ -1,12 +1,10 @@
+/*
+typefaces
+*/
+
 @font-face {
   font-family: PPMonumentExtendedBlack;
   src: url(typefaces/PPMonumentExtended-Black.otf);
-}
-
-body,
-html {
-  margin: 0;
-  padding: 0;
 }
 
 #landing-title {
@@ -19,8 +17,29 @@ html {
   src: url(typefaces/PPPangramSans-Semibold.otf);
 }
 
+
+@font-face {
+  font-family: PPPangramSansMedium;
+  src: url(typefaces/PPPangramSans-Medium.otf);
+}
+
+
 .body-text {
-  font-family: PPPangramSansSemibold;
+  font-family: PPPangramSansMedium;
+  color: white;
+  font-size: 16px;
+}
+
+.body-header-text {
+  /* font-family: PPPangramSansSemibold; */
+  color: white;
+  font-size: 32px;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
 }
 
 .nav-list {
@@ -50,7 +69,7 @@ html {
 nav ul {
   display: flex;
   list-style: none;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 #nav-home-item {
@@ -78,10 +97,6 @@ nav ul li a {
   height: 100vh;
 }
 
-.centered-text {
-  color: white;
-  font-family: PPMonumentExtendedBlack;
-}
 
 #landing-title-container-text {
   opacity: 0;
@@ -93,10 +108,9 @@ nav ul li a {
   margin-left: 20%;
 }
 
-
 main {
-  /* max-width: 1000px; */
-  margin: 0 auto;
+  max-width: 524.55px;
+  margin: 120px auto;
   padding: 20px;
 }
 
