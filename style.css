@@ -11,6 +11,7 @@ html {
 
 #landing-title {
   font-family: PPMonumentExtendedBlack;
+  font-size: 32px;
 }
 
 @font-face {
@@ -18,29 +19,24 @@ html {
   src: url(typefaces/PPPangramSans-Semibold.otf);
 }
 
+.body-text {
+  font-family: PPPangramSansSemibold;
+}
+
+.nav-list {
+  padding: 0
+}
+
 .nav-bar {
   font-family: PPPangramSansSemibold;
-  position: absolute;
   top: 0;
-  left: 0;
-}
-
-.centered-container {
   display: flex;
+  position: absolute;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-}
-
-
-#landing-title-container-text {
-  opacity: 0;
-  margin-right: 20%;
-}
-
-#landing-title-container-arrow {
-  opacity: 0;
-  margin-left: 20%;
+  left: 50%;
+  margin-left: -262.275px;
+  margin-top: 22px;
 }
 
 */ nav {
@@ -54,16 +50,49 @@ html {
 nav ul {
   display: flex;
   list-style: none;
+  font-size: 18px;
 }
 
-nav ul li {
-  margin-right: 10px;
+#nav-home-item {
+  padding-right: 175px;
+}
+
+#nav-about-item {
+  padding-left: 175px;
+  padding-right: 17.5px;
+}
+
+#nav-contact-item {
+  padding-left: 17.5px;
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
 }
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centered-text {
+  color: white;
+  font-family: PPMonumentExtendedBlack;
+}
+
+#landing-title-container-text {
+  opacity: 0;
+  margin-right: 20%;
+}
+
+#landing-title-container-arrow {
+  opacity: 0;
+  margin-left: 20%;
+}
+
 
 main {
   /* max-width: 1000px; */
@@ -87,9 +116,4 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
-}
-
-.centered-text {
-  color: white;
-  font-family: PPMonumentExtendedBlack;
 }
