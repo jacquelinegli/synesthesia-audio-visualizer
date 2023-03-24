@@ -9,7 +9,7 @@ typefaces
 
 #landing-title {
   font-family: PPMonumentExtendedBlack;
-  font-size: 32px;
+  font-size: 24px;
 }
 
 @font-face {
@@ -54,11 +54,11 @@ html {
   justify-content: center;
   align-items: center;
   left: 50%;
-  margin-left: -262.275px;
+  margin-left: -339.025px;
   margin-top: 22px;
 }
 
-*/ nav {
+s */ nav {
   background-color: #333;
   color: #fff;
   display: flex;
@@ -73,11 +73,11 @@ nav ul {
 }
 
 #nav-home-item {
-  padding-right: 175px;
+  padding-right: 260px;
 }
 
 #nav-about-item {
-  padding-left: 175px;
+  padding-left: 260px;
   padding-right: 17.5px;
 }
 
@@ -97,15 +97,23 @@ nav ul li a {
   height: 100vh;
 }
 
+.centered-container-landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+
+}
+
 
 #landing-title-container-text {
   opacity: 0;
-  margin-right: 20%;
+  margin-right: 10%;
 }
 
 #landing-title-container-arrow {
   opacity: 0;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 main {
@@ -130,4 +138,9 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+#email-link {
+  text-decoration: underline;
+  color: white;
 }
