@@ -54,7 +54,7 @@ html {
   justify-content: center;
   align-items: center;
   left: 50%;
-  margin-left: -339.025px;
+  margin-left: -332.18px;
   margin-top: 22px;
 }
 
@@ -73,12 +73,12 @@ nav ul {
 }
 
 #nav-home-item {
-  padding-right: 260px;
+  padding-right: 300px;
 }
 
 #nav-about-item {
-  padding-left: 260px;
-  padding-right: 17.5px;
+  padding-left: 300px;
+  /* padding-right: 17.5px; */
 }
 
 #nav-contact-item {
@@ -144,3 +144,44 @@ h1 {
   text-decoration: underline;
   color: white;
 }
+
+table {
+  /* border-collapse: collapse; */
+  /* margin: 20px; */
+  /* border-radius: 6px; */
+  /* border-spacing: 0; */
+  border-collapse: collapse;
+  /* bored */
+}
+
+th {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #fff;
+  background-color: #424242;
+  font-family: PPPangramSansSemibold;
+  /* border-left: 2px solid #fff;
+  border-right: 2px solid #fff; */
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #fff;
+}
+
+/* thead th:first-child {
+  border-radius: 10px 0 0 0;
+}
+
+thead th:last-child {
+  border-radius: 0 10px 0 0;
+}
+
+tbody tr:last-child td:first-child {
+  border-radius: 0 0 0 10px;
+}
+
+tbody tr:last-child td:last-child {
+  border-radius: 0 0 10px 0;
+} */

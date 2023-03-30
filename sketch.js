@@ -8,6 +8,54 @@ let freq = 0;
 let audioContext;
 let notes = [
   {
+    note: "C0",
+    freq: 16.35,
+  },
+  {
+    note: "C#0",
+    freq: 17.32,
+  },
+  {
+    note: "D0",
+    freq: 18.35,
+  },
+  {
+    note: "D#0",
+    freq: 19.45,
+  },
+  {
+    note: "E0",
+    freq: 20.6,
+  },
+  {
+    note: "F0",
+    freq: 21.83,
+  },
+  {
+    note: "F#0",
+    freq: 23.12,
+  },
+  {
+    note: "G0",
+    freq: 24.5,
+  },
+  {
+    note: "G#0",
+    freq: 25.96,
+  },
+  {
+    note: "A0",
+    freq: 27.5,
+  },
+  {
+    note: "A#0",
+    freq: 29.14,
+  },
+  {
+    note: "B0",
+    freq: 30.87,
+  },
+  {
     note: "C1",
     freq: 32.7,
   },
@@ -247,6 +295,150 @@ let notes = [
     note: "B5",
     freq: 987.77,
   },
+  {
+    note: "C6",
+    freq: 1046.5,
+  },
+  {
+    note: "C#6",
+    freq: 1108.73,
+  },
+  {
+    note: "D6",
+    freq: 1174.66,
+  },
+  {
+    note: "D#6",
+    freq: 1244.51,
+  },
+  {
+    note: "E6",
+    freq: 1318.51,
+  },
+  {
+    note: "F6",
+    freq: 1396.91,
+  },
+  {
+    note: "F#6",
+    freq: 1479.98,
+  },
+  {
+    note: "G6",
+    freq: 1567.98,
+  },
+  {
+    note: "G#6",
+    freq: 1661.22,
+  },
+  {
+    note: "A6",
+    freq: 1760,
+  },
+  {
+    note: "A#6",
+    freq: 1864.66,
+  },
+  {
+    note: "B6",
+    freq: 1975.53,
+  },
+  {
+    note: "C7",
+    freq: 2093,
+  },
+  {
+    note: "C#7",
+    freq: 2217.46,
+  },
+  {
+    note: "D7",
+    freq: 2349.32,
+  },
+  {
+    note: "D#7",
+    freq: 2489.02,
+  },
+  {
+    note: "E7",
+    freq: 2637.02,
+  },
+  {
+    note: "F7",
+    freq: 2793.83,
+  },
+  {
+    note: "F#7",
+    freq: 2959.96,
+  },
+  {
+    note: "G7",
+    freq: 3135.96,
+  },
+  {
+    note: "G#7",
+    freq: 3322.44,
+  },
+  {
+    note: "A7",
+    freq: 3520,
+  },
+  {
+    note: "A#7",
+    freq: 3729.31,
+  },
+  {
+    note: "B7",
+    freq: 3951.07,
+  },
+  {
+    note: "C8",
+    freq: 4186.01,
+  },
+  {
+    note: "C#8",
+    freq: 4434.92,
+  },
+  {
+    note: "D8",
+    freq: 4698.63,
+  },
+  {
+    note: "D#8",
+    freq: 4978.03,
+  },
+  {
+    note: "E8",
+    freq: 5274.04,
+  },
+  {
+    note: "F8",
+    freq: 5587.65,
+  },
+  {
+    note: "F#8",
+    freq: 5919.91,
+  },
+  {
+    note: "G8",
+    freq: 6271.93,
+  },
+  {
+    note: "G#8",
+    freq: 6644.88,
+  },
+  {
+    note: "A8",
+    freq: 7040,
+  },
+  {
+    note: "A#8",
+    freq: 7458.62,
+  },
+  {
+    note: "B8",
+    freq: 7902.13,
+  }
 ];
 
 function setup() {
