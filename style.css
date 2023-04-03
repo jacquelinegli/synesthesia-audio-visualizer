@@ -1,5 +1,5 @@
 /*
-typefaces
+Typefaces
 */
 
 @font-face {
@@ -23,18 +23,265 @@ typefaces
   src: url(typefaces/PPPangramSans-Medium.otf);
 }
 
+@media screen and (min-width: 350px) {
+  main {
+    max-width: 324.36px;
+    margin: 120px auto;
+    padding: 20px;
+  }
 
-.body-text {
-  font-family: PPPangramSansMedium;
-  color: white;
-  font-size: 16px;
+  /* CSS styles for mobile devices */
+  .body-text {
+    font-size: 30px;
+  }
+
+  .nav-list {
+    padding: 0
+  }
+
+  .nav-bar {
+    font-family: PPPangramSansSemibold;
+    top: 0;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    margin-left: -172.18px;
+    margin-top: 22px;
+  }
+
+  nav {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+  }
+
+  #nav-home-item {
+    padding-right: 130px;
+  }
+
+  #nav-about-item {
+    padding-left: 130px;
+  }
+
+  #nav-contact-item {
+    padding-left: 17.5px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /*
+  About Page
+  */
+  .body-text {
+    font-family: PPPangramSansMedium;
+    color: white;
+    font-size: 16px;
+  }
+
+  .body-header-text {
+    color: white;
+    font-size: 20px;
+  }
+
+  .bottom-text {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    width: 664.38px;
+    left: 50%;
+    margin-left: -162.18px;
+    font-family: PPPangramSansMedium;
+    font-size: 14px;
+    margin-bottom: 22px;
+  }
 }
 
-.body-header-text {
-  /* font-family: PPPangramSansSemibold; */
-  color: white;
-  font-size: 32px;
+
+@media screen and (min-width: 596px) {
+
+  main {
+    max-width: 524.55px;
+    margin: 120px auto;
+    padding: 20px;
+  }
+
+  /* CSS styles for mobile devices */
+  .body-text {
+    font-size: 30px;
+  }
+
+  .nav-list {
+    padding: 0
+  }
+
+  .nav-bar {
+    font-family: PPPangramSansSemibold;
+    top: 0;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    margin-left: -272.18px;
+    margin-top: 22px;
+  }
+
+  nav {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+  }
+
+  #nav-home-item {
+    padding-right: 230px;
+  }
+
+  #nav-about-item {
+    padding-left: 230px;
+  }
+
+  #nav-contact-item {
+    padding-left: 17.5px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /*
+  About Page
+  */
+  .body-text {
+    font-family: PPPangramSansMedium;
+    color: white;
+    font-size: 16px;
+  }
+
+  .body-header-text {
+    color: white;
+    font-size: 24px;
+  }
+
+  .bottom-text {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    width: 664.38px;
+    left: 50%;
+    margin-left: -262.18px;
+    font-family: PPPangramSansMedium;
+    font-size: 14px;
+    margin-bottom: 22px;
+  }
 }
+
+@media screen and (min-width: 700px) {
+  main {
+    max-width: 524.55px;
+    margin: 120px auto;
+    padding: 20px;
+  }
+
+  .nav-list {
+    padding: 0
+  }
+
+  .nav-bar {
+    font-family: PPPangramSansSemibold;
+    top: 0;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    margin-left: -332.18px;
+    margin-top: 22px;
+  }
+
+  nav {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+  }
+
+  #nav-home-item {
+    padding-right: 300px;
+  }
+
+  #nav-about-item {
+    padding-left: 300px;
+  }
+
+  #nav-contact-item {
+    padding-left: 17.5px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+  /*
+About Page
+*/
+  .body-text {
+    font-family: PPPangramSansMedium;
+    color: white;
+    font-size: 16px;
+  }
+
+  .body-header-text {
+    color: white;
+    font-size: 32px;
+  }
+
+  .bottom-text {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    width: 664.38px;
+    left: 50%;
+    margin-left: -322.18px;
+    font-family: PPPangramSansMedium;
+    font-size: 14px;
+    margin-bottom: 22px;
+  }
+}
+
 
 body,
 html {
@@ -42,54 +289,9 @@ html {
   padding: 0;
 }
 
-.nav-list {
-  padding: 0
-}
-
-.nav-bar {
-  font-family: PPPangramSansSemibold;
-  top: 0;
-  display: flex;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  left: 50%;
-  margin-left: -332.18px;
-  margin-top: 22px;
-}
-
-s */ nav {
-  background-color: #333;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  font-size: 16px;
-}
-
-#nav-home-item {
-  padding-right: 300px;
-}
-
-#nav-about-item {
-  padding-left: 300px;
-  /* padding-right: 17.5px; */
-}
-
-#nav-contact-item {
-  padding-left: 17.5px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
+/*
+Home
+*/
 .centered-container {
   display: flex;
   justify-content: center;
@@ -97,30 +299,6 @@ nav ul li a {
   height: 100vh;
 }
 
-.centered-container-landing-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 60vh;
-
-}
-
-
-#landing-title-container-text {
-  opacity: 0;
-  margin-right: 10%;
-}
-
-#landing-title-container-arrow {
-  opacity: 0;
-  margin-left: 10%;
-}
-
-main {
-  max-width: 524.55px;
-  margin: 120px auto;
-  padding: 20px;
-}
 
 body {
   background-color: black;
@@ -140,48 +318,34 @@ h1 {
   left: 0;
 }
 
-#email-link {
-  text-decoration: underline;
-  color: white;
+.table-container {
+  width: 100%;
 }
 
 table {
-  /* border-collapse: collapse; */
-  /* margin: 20px; */
-  /* border-radius: 6px; */
-  /* border-spacing: 0; */
   border-collapse: collapse;
-  /* bored */
+  width: 100%;
 }
 
-th {
-  padding: 10px;
-  text-align: center;
-  border: 2px solid #fff;
-  background-color: #424242;
-  font-family: PPPangramSansSemibold;
-  /* border-left: 2px solid #fff;
-  border-right: 2px solid #fff; */
-}
-
+th,
 td {
-  padding: 10px;
-  text-align: center;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
+  padding: 8px;
+  text-align: left;
 }
 
-/* thead th:first-child {
-  border-radius: 10px 0 0 0;
+.table-note {
+  font-family: PPPangramSansSemibold;
 }
 
-thead th:last-child {
-  border-radius: 0 10px 0 0;
+.body-header-text:not(:first-child) {
+  padding-top: 30px;
 }
 
-tbody tr:last-child td:first-child {
-  border-radius: 0 0 0 10px;
+a[href="https://github.com/jacquelinegli/synesthesia-audio-visualizer"] {
+  color: pink;
 }
 
-tbody tr:last-child td:last-child {
-  border-radius: 0 0 10px 0;
-} */
+a[href="https://jacquelineli.com"] {
+  color: pink;
+}

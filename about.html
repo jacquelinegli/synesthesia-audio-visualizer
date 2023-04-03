@@ -13,7 +13,6 @@
             <ul class="nav-list">
                 <li id="nav-home-item"><a href="index.html">SL</a></li>
                 <li id="nav-about-item"><a href="about.html">About</a></li>
-                <!-- <li id="nav-contact-item"><a href="contact.html">Contact</a></li> -->
             </ul>
         </nav>
     </div>
@@ -21,15 +20,15 @@
         <p class="body-header-text">
             What is the 'Synesthesia Lens'?
         </p>
-        <p>
-            The Synesthesia Lens is a code-generated visualization of what synesthesia was for composer Alexander
-            Scriabin. As you enter the Synesthesia Lens, the audio from your microphone is translated into lines of
-            color mapped to each note of your audio, sporadically appearing on the page.
+        <p class="body-response-text">
+            The Synesthesia Lens is a code-generated visualization of how Alexander Scriabin, a famous composer and
+            pianist, perceived his synesthesia. As you enter the Synesthesia Lens, the audio from your microphone is
+            translated into lines of color depending on each instance's frequency, sporadically appearing on the page.
         </p>
         <p class="body-header-text">
             What is synesthesia?
         </p>
-        <p>
+        <p class="body-response-text">
             Synesthesia is an involuntary and automatic perception of a bodily sense when another bodily sense is
             stimulated. For example, some synesthetic people associate specific colors with specific words. For
             Scriabin, he saw notes as specific colors, such as C being red, A being light green, and B being light blue.
@@ -37,92 +36,88 @@
         <p class="body-header-text">
             How does this work?
         </p>
-        <p>
-            This project uses P5.js and ML5.js to create the synesthetic visualization and HTML, CSS, and JS to create
-            the website. You can view the source code here.
-        </p>
-        <p>
-            Live audio data is taken in from the microphone and their frequencies are identified in real time via
-            ML5.js. This frequency is categorized into one of the 12 distinct notes found in Western music, then mapped
-            to the color Scriabin saw for that note. I used P5.js to display each instance of the audio as a colorful
-            line that appears for an instant than fades slowly. </p>
-        <p>
-            Below is the mapping of notes to colors Scriabin had that I used:
-        </p>
-        <table>
-            <thead>
-                <tr>
-                    <th>Note</th>
-                    <th>Color</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>C</td>
-                    <td>Red</td>
-                </tr>
-                <tr>
-                    <td>C#/Db</td>
-                    <td>Purple</td>
-                </tr>
-                <tr>
-                    <td>D</td>
-                    <td>Yellow</td>
-                </tr>
-                <tr>
-                    <td>D#/Eb, </td>
-                    <td>Magenta</td>
-                </tr>
-                <tr>
-                    <td>E</td>
-                    <td>Pale Sea Foam</td>
-                </tr>
-                <tr>
-                    <td>F</td>
-                    <td>Dark Red</td>
-                </tr>
-                <tr>
-                    <td>F#/Gb</td>
-                    <td>Blue</td>
-                </tr>
-                <tr>
-                    <td>G</td>
-                    <td>Orange</td>
-                </tr>
-                <tr>
-                    <td>G#/Ab</td>
-                    <td>Fuscia</td>
-                </tr>
-                <tr>
-                    <td>A </td>
-                    <td>Light Green</td>
-                </tr>
-                <tr>
-                    <td>A#/Bb</td>
-                    <td>Burgundy</td>
-                </tr>
-                <tr>
-                    <td>B</td>
-                    <td>Light Blue</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="body-response-text">
+            <p>
+                This project uses P5.js and ML5.js to create the synesthetic visualization and HTML, CSS, and JS to
+                create
+                the website. You can view the source code <a
+                    href="https://github.com/jacquelinegli/synesthesia-audio-visualizer" target="_blank">here</a>.
+            </p>
+            <p>
+                Live audio data is taken in from the microphone and their frequencies are identified in real time via
+                ML5.js. This frequency is categorized into one of the 12 distinct notes found in Western music, then
+                mapped
+                to the color Scriabin saw for that note. I used P5.js to display each instance of the audio as a
+                colorful
+                line that appears for an instant than fades slowly. </p>
+            <p>
+                Below is the mapping of notes to colors Scriabin had that I used:
+            </p>
+        </div>
+        <div class="table-container">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="table-note">C</td>
+                        <td>Red</td>
+                        <td class="table-note">F#/Gb</td>
+                        <td>Blue</td>
+                    </tr>
+                    <tr>
+                        <td class="table-note">C#/Db</td>
+                        <td>Purple</td>
+                        <td class="table-note">G</td>
+                        <td>Orange</td>
+                    </tr>
+                    <tr>
+                        <td class="table-note">D</td>
+                        <td>Yellow</td>
+                        <td class="table-note">G#/Ab</td>
+                        <td>Fuscia</td>
+                    </tr>
+                    <tr>
+                        <td class="table-note">D#/Eb</td>
+                        <td>Magenta</td>
+                        <td class="table-note">A</td>
+                        <td>Light Green</td>
+                    </tr>
+                    <tr>
+                        <td class="table-note">E</td>
+                        <td>Pale Sea Foam</td>
+                        <td class="table-note">A#/Bb</td>
+                        <td>Burgundy</td>
+                    </tr>
+                    <tr>
+                        <td class="table-note">F</td>
+                        <td>Dark Red</td>
+                        <td class="table-note">B</td>
+                        <td>Light Blue</td>
+                </tbody>
+            </table>
+        </div>
 
         <p class="body-header-text">
             Who am I?
         </p>
-        <p>
-            My name is Jacqueline Li. As of April 2023, I am a 5th year at Northeastern University studying computer
+        <p class="body-response-text">
+            My name is Jacqueline Li. As of April 2023, I am a 5th year student at Northeastern University studying
+            computer
             science and design graduating
             in May. This project is my senior capstone—a culmination of the knowledge and skills I’ve acquired
             throughout my time in undergrad poured into one stand alone project.
         </p>
         <p class="body-header-text">
+            What other work have I produced?
+        </p>
+        <p class="body-response-text">
+            Check out my other project on my <a href="https://jacquelineli.com" target="_blank">website</a>.
+        </p>
+        <p class="body-header-text last-paragraph">
             How can you reach me?
         </p>
-        <p>
-            If you want to get in contact with me, my Instagram is @didotfanclub and my email is
-            whoisjacquelineli@gmail.com
+        <p class="body-response-text">
+            My Instagram is @didotfanclub, my TikTok is @influenczar, and my
+            email is whoisjacquelineli@gmail.com
         </p>
 
     </main>

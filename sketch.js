@@ -448,22 +448,27 @@ function setup() {
 }
 
 $(document).ready(function () {
-  $('body').keyup(function (e) {
-    // user has pressed enter
-    if (e.keyCode == 13) {
-      startLoop();
-      // for some reason when i do this, it
-      // fades away twice?
-      setTimeout(() => {
-        $('#enter-text').fadeOut(1000);
-      }, 500);
-    }
-  })
+  $(document).click(function () {
+    startLoop();
+  });
+  // $('body').keyup(function (e) {
+  //   // user has pressed enter
+  //   if (e.keyCode == 13) {
+  //     startLoop();
+
+  //     // for some reason when i do this, it
+  //     // fades away twice?
+  //     //   setTimeout(() => {
+  //     //     $('.bottom-text').fadeOut(1000);
+
+  //     //     $('#enter-text').fadeOut(1000);
+  //     //   }, 500);
+  //   }
+  // })
 });
 
 // starts the synesthetic visualization
 function startLoop() {
-  console.log('started');
   // gets audio context after user gestures on the screen
   audioContext = getAudioContext();
   mic = new p5.AudioIn();
@@ -482,7 +487,6 @@ function startLoop() {
 }
 
 function modelLoaded() {
-  // console.log("model loaded");
   pitch.getPitch(gotPitch);
 }
 
@@ -498,7 +502,6 @@ function gotPitch(error, frequency) {
 }
 
 function listening() {
-  // console.log("listening");
   pitch = ml5.pitchDetection(model_url, audioContext, mic.stream, modelLoaded);
 }
 
