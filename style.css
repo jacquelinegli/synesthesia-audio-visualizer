@@ -23,7 +23,7 @@ Typefaces
   src: url(typefaces/PPPangramSans-Medium.otf);
 }
 
-@media screen and (min-width: 350px) {
+@media only screen and (min-width: 350px) {
   main {
     max-width: 324.36px;
     margin: 120px auto;
@@ -111,7 +111,7 @@ Typefaces
 }
 
 
-@media screen and (min-width: 596px) {
+@media only screen and (min-width: 596px) {
 
   main {
     max-width: 524.55px;
@@ -199,7 +199,7 @@ Typefaces
   }
 }
 
-@media screen and (min-width: 700px) {
+@media only screen and (min-width: 700px) {
   main {
     max-width: 524.55px;
     margin: 120px auto;
