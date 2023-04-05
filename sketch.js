@@ -451,21 +451,25 @@ $(document).ready(function () {
   $(document).click(function () {
     startLoop();
   });
-  // $('body').keyup(function (e) {
-  //   // user has pressed enter
-  //   if (e.keyCode == 13) {
-  //     startLoop();
-
-  //     // for some reason when i do this, it
-  //     // fades away twice?
-  //     //   setTimeout(() => {
-  //     //     $('.bottom-text').fadeOut(1000);
-
-  //     //     $('#enter-text').fadeOut(1000);
-  //     //   }, 500);
-  //   }
-  // })
 });
+
+function goToHome() {
+  if (history.replaceState) {
+    history.replaceState(null, null, '/');
+  } else {
+    location.replace('/');
+  }
+}
+
+function goToAbout() {
+  if (location.pathname === '/about.html') {
+    // location.replace('/about.html');
+    location.replace('/about')
+  }
+  console.log('hello');
+}
+
+
 
 // starts the synesthetic visualization
 function startLoop() {

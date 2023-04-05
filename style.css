@@ -30,6 +30,10 @@ Typefaces
     padding: 20px;
   }
 
+  #homepage-text {
+    font-size: 14px;
+  }
+
   /* CSS styles for mobile devices */
   .body-text {
     font-size: 30px;
@@ -105,7 +109,6 @@ Typefaces
     left: 50%;
     margin-left: -162.18px;
     font-family: PPPangramSansMedium;
-    font-size: 14px;
     margin-bottom: 22px;
   }
 }
@@ -194,7 +197,6 @@ Typefaces
     left: 50%;
     margin-left: -262.18px;
     font-family: PPPangramSansMedium;
-    font-size: 14px;
     margin-bottom: 22px;
   }
 }
@@ -277,9 +279,16 @@ About Page
     left: 50%;
     margin-left: -322.18px;
     font-family: PPPangramSansMedium;
-    font-size: 14px;
     margin-bottom: 22px;
   }
+}
+
+#homepage-text {
+  font-size: 16px;
+}
+
+.bottom-text {
+  font-size: 12px;
 }
 
 
