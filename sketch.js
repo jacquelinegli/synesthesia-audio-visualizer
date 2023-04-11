@@ -461,16 +461,6 @@ function goToHome() {
   }
 }
 
-function goToAbout() {
-  if (location.pathname === '/about.html') {
-    // location.replace('/about.html');
-    location.replace('/about')
-  }
-  console.log('hello');
-}
-
-
-
 // starts the synesthetic visualization
 function startLoop() {
   // gets audio context after user gestures on the screen
