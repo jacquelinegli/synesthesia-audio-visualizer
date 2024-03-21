@@ -10,15 +10,17 @@ Live audio data is taken in from the microphone and their frequencies are identi
 
 Below is the mapping of notes to colors Scriabin had that I used:
 
-C   Red
-C#  Purple
-D   Yellow
-D#  Magenta
-E   Pale Sea Foam
-F   Dark Red
-F#  Blue
-G   Orange
-G#  Fuchsia
-A   Light Green
-A#  Burgundy
-B   Light Blue
+| Note | Color |
+|------|-------|
+|   C  |  Red  |
+|   C# | Purple|
+|   D  | Yellow|
+|   D# | Magenta|
+| E    |Pale Sea Foam|
+|F   |Dark Red|
+|F#  |Blue|
+|G  | Orange|
+|G# | Fuchsia|
+|A  | Light Green|
+|A#|  Burgundy|
+|B  | Light Blue|
